@@ -74,6 +74,12 @@ section{
   margin-bottom: 100px;
 }
 
+.cards-main-main{
+  width: 100%;
+  height: fit-content;
+  margin-left: 450px;
+}
+
  .cards-main{
   width: 175px;
   font-size: 12px;
@@ -86,7 +92,8 @@ section{
  .card-badge{
   position: absolute;
   top: 6px;
-  left: 6px;
+  left: 456px;
+  width: 80px;
   background-color: white;
   padding: 5px 7px;
   border-radius: 2px;
