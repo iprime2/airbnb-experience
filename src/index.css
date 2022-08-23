@@ -40,7 +40,8 @@ code {
 .main-grid{
   align-self: center;
   height: 250px;
-  width: 330px;
+  min-width: 330px;
+  max-width: 450px
   margin-top: 5px;
 }
 
