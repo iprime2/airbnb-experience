@@ -29,29 +29,30 @@ code {
 }
 
 .main-content{
-  align-items: center;
   display: flex;
-  height: 410px;
+  height: fit-content;
   flex-direction: column;
   padding: 20px;
   text-align: left;
-
 }
 
 .main-grid{
   align-self: center;
-  height: 250px;
+  height: 500px;
   max-width: 100%;
-  width: 600px;
+  width: 700px;
   margin-top: 5px;
 }
 
  .main-title{
+  padding: 5px;
   height: auto;
+  background-color: aqua;
  }
 
  .main-text{
-  margin-bottom: 100px;
+  padding: 5px;
+  background-color: aquamarine;
  }
 
  .bold{
@@ -67,6 +68,7 @@ section{
 }
 
  .cards-lists{
+  margin-left: 22px;
   display: flex;
   flex-wrap: nowrap;
   gap: 20px;
@@ -74,11 +76,6 @@ section{
   margin-bottom: 100px;
 }
 
-.cards-main-main{
-  width: 100%;
-  height: fit-content;
-  margin-left: 450px;
-}
 
  .cards-main{
   width: 175px;
@@ -92,7 +89,7 @@ section{
  .card-badge{
   position: absolute;
   top: 6px;
-  left: 456px;
+  left: 6px;
   width: 80px;
   background-color: white;
   padding: 5px 7px;
