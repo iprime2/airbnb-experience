@@ -1,4 +1,3 @@
-import logo from './components/airbnb-logo.png';
 import './App.css';
 import Navbar from './components/navbar';
 import Main from './components/main'
